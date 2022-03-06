@@ -18,4 +18,4 @@ Utilisation d'une conditionnelle.
 ## Dark mode
 Mise en place du mode sombre.
 
-Il s'agit d'alterer les styles pour passer d'un mode à l'autre.
+Il s'agit d'alterner les styles pour passer d'un mode à l'autre.
