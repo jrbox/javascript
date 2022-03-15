@@ -29,3 +29,9 @@ Utilisation des medias queries pour moduler l'affichage.
 Importer une police de caractères.
 
 Animer l'affichage de la modal.
+
+## Modal Scroll
+Affichage d'un code promo lorsque l'utilisateur défile sur la page du site.
+
+Utilisation des événements liés à la fenêtre du navigateur.
+Récupérer la position de l'utilisateur depuis le haut du document.
