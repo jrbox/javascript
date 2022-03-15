@@ -34,4 +34,5 @@ Animer l'affichage de la modal.
 Affichage d'un code promo lorsque l'utilisateur défile sur la page du site.
 
 Utilisation des événements liés à la fenêtre du navigateur.
+
 Récupérer la position de l'utilisateur depuis le haut du document.
