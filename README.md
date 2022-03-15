@@ -13,9 +13,19 @@ Affichage d'une bannière pour autoriser l'utilisation des cookies par le site.
 Mise en place d'une vidéo YouTube et son bouton d'abonnement.
 
 Alterner le texte et la couleur du bouton d'abonnement.
+
 Utilisation d'une conditionnelle.
 
 ## Dark mode
 Mise en place du mode sombre.
 
 Il s'agit d'alterner les styles pour passer d'un mode à l'autre.
+
+## Burger Menu
+Gestion d'un menu burger sur les résolutions mobiles.
+
+Utilisation des medias queries pour moduler l'affichage.
+
+Importer une police de caractères.
+
+Animer l'affichage de la modal.

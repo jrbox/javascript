@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%; /* 1 rem = 10px*/
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2337;
+}
+
+/* desktop style */
+.navbar-desktop{
+    height: 8rem; /* 80px */
+    line-height: 8rem;
+    text-align: center;
+}
+
+.navbar-desktop a{
+    padding: 3rem;
+}
+
+.navbar-mobile{
+    display: none;
+}
+
+.navbar-mobile i{
+    position: fixed;
+    z-index: 9999; /* l'icon de la modal doit etre accesible */
+    color: white;
+    top: 9px;
+    right: 15px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    left: 0;
+    top: -100vh; /* position de depart de la modal pour un affichage de haut en bas */
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    background-color: darkseagreen;
+    transition: top 0.9s;
+}
+
+.modal-moove{
+    top: 0; /* position finale de la modale */
+}
+
+.navbar-mobile .navbar-mobile-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar-mobile .navbar-mobile-list a{
+    padding: 2rem;
+    color: #1E2337;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+/* On affiche le menu burger sur les resolutions mobiles uniquement */
+@media screen and (max-width: 700px){
+
+    .navbar-desktop{
+        display: none;
+    }
+
+    .navbar-mobile{
+        display: block;
+    }
+}
