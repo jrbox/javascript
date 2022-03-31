@@ -41,3 +41,14 @@ Récupérer la position de l'utilisateur depuis le haut du document.
 Affichage d'une notification d'enregistrement utilisateur.
 
 Création dynamique d'éléments dans le DOM.
+
+## FAQ
+Création d'un composant accordéon pour l'affichage d'une foire aux questions.
+
+L'utilisateur clique sur la question et visualise uniquement la réponse associée.
+
+Utilisation d'une boucle sur un ensemble d'élements (méthode querySelectorAll).
+
+Utilisation de nextElementSibling pour retrouver l'élément HTML suivant.
+
+Utilisation de lastElementChild pour recupérer le dernier élément d'une DIV.
