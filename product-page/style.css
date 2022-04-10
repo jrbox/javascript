@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%; /* 1 rem = 10px*/
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2337;
+}
+
+.product-container{
+    width: 80%;
+    display: flex;
+    background-color: white;
+    color: #1E2337;
+}
+
+.product-infos{
+    flex: 1;
+    padding: 1.5rem;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1.product-title{
+    font-size: 2.4rem;
+    order: 1;
+}
+
+p.product-price{
+    font-size: 1.8rem;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    order: 3;
+}
+
+p.product-description{
+    margin: 2rem 0;
+    order: 2;
+}
+
+.cart-container{
+    order: 4;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+button.btn-cart{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border: solid;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
+button.btn-cart i{
+    margin-right: 1rem;
+}
+
+.product-images{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.product-images-full-card{
+    flex: 2;
+    margin-bottom: 0.5rem;
+}
+
+.product-images-full-card-image{
+    width: 100%;
+    height: 100%;
+}
+
+.product-images-small-box
+{
+    flex: 1;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.product-images-small-card{
+    flex: 1;
+    cursor: pointer;
+}
+
+.product-images-small-card-image{
+    width: 100%;
+    height: 100%;
+}
+
+/** Résolution mobile **/
+@media screen and (max-width: 600px){
+
+    .product-container{
+        flex-direction: column;
+    }
+
+    .product-images-small-box{
+        display: none;
+    }
+
+    p.product-price{
+        font-size: 1.4rem;
+        text-align: left;
+        order: 2;
+    }
+    
+    p.product-description{
+        order: 3;
+    }
+}

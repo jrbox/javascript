@@ -52,3 +52,10 @@ Utilisation d'une boucle sur un ensemble d'élements (méthode querySelectorAll)
 Utilisation de nextElementSibling pour retrouver l'élément HTML suivant.
 
 Utilisation de lastElementChild pour recupérer le dernier élément d'une DIV.
+
+## PRODUCT PAGE
+ Elaboration d'une page produit avec gestion d'un panier.
+
+ Utilisation des medias queries pour rendre la page responsive.
+
+ Utilisation de flexbox et des propriétés flex-basis, flex-grow et flex-shrink pour agencer la page.
