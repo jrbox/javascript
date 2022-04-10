@@ -53,7 +53,7 @@ Utilisation de nextElementSibling pour retrouver l'élément HTML suivant.
 
 Utilisation de lastElementChild pour recupérer le dernier élément d'une DIV.
 
-## PRODUCT PAGE
+## Product Page
  Elaboration d'une page produit avec gestion d'un panier.
 
  Utilisation des medias queries pour rendre la page responsive.
